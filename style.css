@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,600&display=swap');
+
+. {
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+
+    background-color: #f1e7c5;
+    border: 1px solid #f1e7c5;
+    border-radius: 24px;
+
+    height: 498px;
+    width: 885px;
+}
+
+.card > img {
+    width: 350px;
+    height: 350px;
+}
+
+.infos {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#manufacturer {
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    margin-top: 8px;
+}
+
+#productname {
+    margin: 0 !important;
+}
+
+#aboutproduct {
+    width: 450px;
+}
+
+#productprice {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.infos > button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f5938b;
+    color: #000;
+
+    border: 1px solid #000;
+    border-radius: 16px;
+
+    width: 110px;
+    height: 30px;
+}
+
+.infos > button:hover {
+    background-color: #000;
+    color: #f5938b;
+}
